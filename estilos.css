@@ -1,0 +1,232 @@
+/*GENERALES*/
+* {
+    margin: 0% ;
+    padding: 0% ;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Pacifico";
+    src: url(./recursos/ZenAntiqueSoft-Regular.ttf);
+    font-style: normal;
+}
+/*CUERPO*/
+body{
+    background: url(./recursos/fondo1.jpg);
+    background-size: contain;
+}
+/*HEADER*/
+.publicidad {
+    text-align: "center";
+    font-size: x-small;
+    font-style: normal;
+    font-family: "Pacifico";
+    background-color: #F2DCEB;;
+    text-align: center;
+    
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Pacifico";
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    border: 3px solid #404040;
+    
+   
+    
+
+}
+.encabezado h2 {
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 40px;
+}
+.encabezado nav {
+    display: flex;
+}
+.encabezado nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a:hover {
+    color: #404040;
+}
+.encabezado img {
+    width: 150px;
+    border-radius: 60px;
+    
+}
+article img {
+    height: 350px;
+    width: 250px;
+    border:5px solid #404040 ;
+    margin-left: 20px;
+}
+article {
+    display: flex;
+}
+button {
+    font-size: large;
+    font-weight: bold;
+}
+a {
+    display: block;
+    font-weight: bold;;
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid black;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+a.comprar {
+    display: block;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid black;
+    color: black;
+    text-align: center;
+    font-family: "Pacifico"; 
+
+}
+.prendas {
+    display: flex;
+    margin-top: 40px;
+}
+.prendas2 {
+    display: flex;
+    margin-top: 40px;
+}
+.prenda1 {
+    padding: 0px 0px ;
+    justify-content: flex-start;
+}
+.prenda2{
+    justify-content: flex-end;
+}
+.contenedor1 {
+    display: block;
+    flex-direction: row;
+    width: max-content;
+    text-align: center;
+    align-items: right;
+}
+.lista1 {
+    padding-top: 100px;
+    margin: 10px;
+}
+input {
+    display: block;
+}
+.formu {
+    display: flex;
+    justify-content: center;
+}
+.tarjetaformulario {
+    margin: 10px;
+    font-family: "Pacifico";
+    background-color: #dbe4d486;
+    padding: 20px 40px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    box-shadow: 0 0 40px -10px;
+    
+
+
+}
+.input {
+    padding: 7px;
+    margin: 10px 10px;
+    
+}
+
+.formu a {
+    display: flex;
+    font-weight: bold;
+    background-color: rgb(148, 201, 211);
+    width: auto;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: solid #404040 10px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.promociones {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.piedepagina {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+}
+.pie {
+    font-family: "Pacifico";
+}
+.TITULOCONTACTO {
+    font-family: "Pacifico";
+    display: flex;
+    justify-content: center;
+}
+ul .listacontacto {
+    font-family: "Pacifico";
+    padding: 5px;
+    margin: 10px;
+}
+.doble {
+    display: flex;
+}
+.formulariocontacto {
+    font-family: "Pacifico";
+    margin-left: 40px;
+    background-color: #dbe4d486;
+    padding: 40px;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: flex-end;
+    box-shadow: 0 0 40px -10px;
+    
+}
+button {
+    font-family: "Pacifico";
+    margin-top: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+.CcC {
+    margin-bottom: 10px ;
+}
+.input1 {
+    padding: 10px;
+    margin: 7px;
+}
+
+.queeslamoda {
+    font-family: "Pacifico";
+    text-align: center;
+    padding: 10px;
+
+}
+.modatexto {
+    font-family: "Pacifico";
+    padding: 10px;
+}
