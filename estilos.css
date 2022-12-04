@@ -230,3 +230,10 @@ button {
     font-family: "Pacifico";
     padding: 10px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
