@@ -15,6 +15,11 @@ body{
     background-size: contain;
 }
 /*HEADER*/
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
 .publicidad {
     text-align: "center";
     font-size: x-small;
@@ -32,6 +37,7 @@ body{
     padding: 10px;
     height: 100px;
     border: 3px solid #404040;
+    
     
    
     
@@ -229,4 +235,15 @@ button {
 .modatexto {
     font-family: "Pacifico";
     padding: 10px;
+}
+
+@media screen and (max-with:768px) {
+    
+}
+
+@media screen and (max-widht:576px) {
+    nav {
+        display: none;
+    }
+    
 }
