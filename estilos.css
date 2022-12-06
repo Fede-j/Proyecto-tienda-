@@ -40,7 +40,6 @@ header {
     
     
    
-    
 
 }
 .encabezado h2 {
@@ -58,6 +57,9 @@ header {
     padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
+}
+.hamburguesa {
+    display: none;
 }
 a:hover {
     color: #404040;
@@ -268,6 +270,9 @@ button {
     }
     .prend3 {
         justify-content: center;
+    }
+    .hamburguesa {
+        display: block;
     }
 }
 
