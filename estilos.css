@@ -109,10 +109,12 @@ a.comprar {
 .prendas {
     display: flex;
     margin-top: 40px;
+    justify-content: center;
 }
 .prendas2 {
     display: flex;
     margin-top: 40px;
+    justify-content: center;
 }
 .prenda1 {
     padding: 0px 0px ;
@@ -152,9 +154,6 @@ input {
     border: 1px solid black;
     justify-content: flex-end;
     box-shadow: 0 0 40px -10px;
-    
-
-
 }
 .input {
     padding: 7px;
@@ -240,7 +239,23 @@ button {
     font-family: "Pacifico";
     padding: 10px;
 }
+.imagencontaminacion {
+    display: flex;
+    justify-content: center;
+}
+.podcast {
+    display: flex;
+    justify-content: center;
+}
 
+/* GRID EN PESTAÑA MODA CIRCULAR */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+}
+/* REPONSIVE PARA EL INDEX */
 @media (max-width:768px) {
     .lista1 {
         width: 170px;
@@ -288,7 +303,5 @@ button {
     }
     .encabezado h2 {
         font-size: 30px;
-    }
-
-    
+    }    
 }
