@@ -110,6 +110,9 @@ a.comprar {
     display: flex;
     margin-top: 40px;
     justify-content: center;
+    max-width: 1200px;
+    margin: 0% auto;
+    margin-top: 30px;
 }
 .prendas2 {
     display: flex;
@@ -133,8 +136,9 @@ a.comprar {
 .lista1 {
     padding-top: 100px;
     margin: 10px;
-    width: 170px;
+    width: 110px;
     height: 350px;
+
 }
 input {
     display: block;
