@@ -240,27 +240,31 @@ button {
     padding: 10px;
     max-width: 1200px;
     margin: 0% auto;
+    text-align: justify center;
 }
 .grid img {
     display: flex;
     justify-content: center;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
 }
 .podcast {
     display: flex;
     justify-content: center;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
 }
 
-/* GRID EN PESTAÑA MODA CIRCULAR */
+/* GRID EN PESTAÑA MODA CIRCULAR, */
 .grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 20px;
+    gap: 40px;
     justify-items: center;
+    margin-top: 20px;
 }
 /* REPONSIVE PARA EL INDEX */
 @media (max-width:768px) {
@@ -301,6 +305,7 @@ button {
 }
 
 @media (max-width:576px) {
+    /* RESPONSIVE */
     .encabezado nav {
         display: none;
     }
@@ -310,5 +315,14 @@ button {
     }
     .encabezado h2 {
         font-size: 30px;
-    }    
+    }   
+
+    /* REPONSIVE DE MODACIRCULAR */
+    .grid {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+
 }
+
+
