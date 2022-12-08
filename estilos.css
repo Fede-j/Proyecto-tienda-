@@ -238,14 +238,20 @@ button {
 .modatexto {
     font-family: "Pacifico";
     padding: 10px;
+    max-width: 1200px;
+    margin: 0% auto;
 }
-.imagencontaminacion {
+.grid img {
     display: flex;
     justify-content: center;
+    width: 600px;
+    height: 600px;
 }
 .podcast {
     display: flex;
     justify-content: center;
+    width: 600px;
+    height: 600px;
 }
 
 /* GRID EN PESTAÑA MODA CIRCULAR */
@@ -254,6 +260,7 @@ button {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     gap: 20px;
+    justify-items: center;
 }
 /* REPONSIVE PARA EL INDEX */
 @media (max-width:768px) {
